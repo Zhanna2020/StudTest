@@ -6,11 +6,13 @@
 
 int main()
 {
-	int r;
+	int r, k;
 	double p = 3.14, S, P;
 	printf("Input r\n");
 	scanf_s("%d", &r);
-	S = p * r * r;
+	printf("Input k\n");
+	scanf_s("%d", &k);
+	S = p * r * r*k;
 	printf("S=%lf", S);
 	P = 2 * p * r;
 	printf("P=%lf", P);
