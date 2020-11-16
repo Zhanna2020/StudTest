@@ -10,7 +10,7 @@ using namespace std;
 
 int main()
 {
-	double a, x, y, b, al;
+	double a, x, y, al;
 	printf("input X: ");
 	scanf_s("%lf", &x);
 	printf("input Y: ");
@@ -20,9 +20,6 @@ int main()
 	a = (1 + (pow(sin(x), 2))) / (2 + abs((y - 3 * y) / (1 + (pow(x, 3)) * (pow(y, 2)))) + ((sqrt(x)) / (pow((x - y), 1 / 3))));
 	printf("\na=");
 	printf("%e", a);
-	b = pow(cos(tan(x + y)), 2) + sin(al - 270);
-	printf("\nb=");
-	printf("%e", b);
 }
 
 
