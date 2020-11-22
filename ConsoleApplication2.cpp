@@ -14,8 +14,7 @@ int main()
 	scanf_s("%d", &k);
 	S = p * r * r*k;
 	printf("S=%lf", S);
-	P = 2 * p * r;
-	printf("P=%lf", P);
+	
 	
 }
 
