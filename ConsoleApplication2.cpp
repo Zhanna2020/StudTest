@@ -10,9 +10,8 @@ int main()
 	double p = 3.14, S, P;
 	printf("Input r\n");
 	scanf_s("%d", &r);
-	printf("Input k\n");
 	scanf_s("%d", &k);
-	S = p * r * r*k;
+	S = p * r * r * k;
 	printf("S=%lf", S);
 	
 	
